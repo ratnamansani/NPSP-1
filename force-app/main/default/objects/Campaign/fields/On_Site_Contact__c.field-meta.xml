@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>On_Site_Contact__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Contact at the location for on site logistics. This is a custom field that does not come with NPSP.</description>
+    <inlineHelpText>This is a custom field that does not come with NPSP.</inlineHelpText>
+    <label>On Site Contact</label>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Campaigns</relationshipLabel>
+    <relationshipName>Campaigns</relationshipName>
+    <required>false</required>
+    <type>Lookup</type>
+</CustomField>
